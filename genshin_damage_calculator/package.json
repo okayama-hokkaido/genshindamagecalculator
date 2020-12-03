@@ -1,11 +1,11 @@
 {
   "name": "genshin_damage_calculator",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
+    "author": "wata9shi",
+    "scripts": {
+    "serve": "node build/dev-server.js",
+    "build": "node build/dev-server.js",
     "start": "node server.js"
   },
   "dependencies": {
